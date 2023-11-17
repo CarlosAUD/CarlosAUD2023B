@@ -7,6 +7,9 @@ public class HolaMundo {
 		int b;
 		int j;
 		int c = (int) ((Math.random()*31)+1);
+		Scanner mivariable=new Scanner(System.in);
+                System.out.println("Ingrese su nombre: ");
+                String nombre= mivariable.nextLine();
 		System.out.println("El juego consiste en averigurar la fecha secreta: ");
 		b = sc.nextInt();
 		for (i=0;i<=4;i++){
@@ -82,7 +85,7 @@ public class HolaMundo {
 	} else if ((b >= 2 && j <= 19) || (b == 3 && j <= 20)) {
 		System.out.print("Tu signo zodiacal es Piscis: " + b + "-" + j);
 		}
-
+	System.out.println("Su nombre es: " + nombre);
 	}
 }
 		
