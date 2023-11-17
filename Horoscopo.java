@@ -14,7 +14,7 @@ public class HolaMundo {
 				System.out.println("Has acertado");
 				break;}
 			else if(i==4){
-				System.out.println("Lo siento has perdido, el numero correcto era: ");
+				System.out.println("Lo siento has perdido, el numero correcto era: " + a);
 				break;}
 			else if(a>b){
 				System.out.println("El numero secreto es Mayor que " + b);}
@@ -26,8 +26,38 @@ public class HolaMundo {
 			else if(i==2){
 				int x = (int) (a/10);
 				System.out.println("una pista, la primera cifra es: " + x);
-				System
+				System.out.print("Intentalo de nuevo: ");
+				b = sc.nextInt();}
+			else if(i>=3){
+				System.out.print("Ultimo intento: ");
+				b = sc.nextInt();}
+		}
+		System.out.print("tienes 5 mas intentos. Escribe un numero del 1 al 31: ");
+		j = vr.nextInt();
+		for (i=0;i<=4;i++){
+			if(c==j){
+				System.out.println("Has acertado");
 				break;}
+			else if(i==4){
+				System.out.println("Lo siento has perdido, el numero correcto era: " + c);
+				break;}
+			else if(c>j){
+				System.out.println("El numero secreto es Mayor que " + j);}
+			else if(c<j){
+				System.out.println("El numero secreto es Menor que " + j);}
+			if(i<=1){
+				System.out.println("Otro intento: ");
+				j = vr.nextInt();}
+			else if(i==2){
+				int y = (int) (c/10);
+				System.out.println("una pista, la primera cifra es: " + y);
+				System.out.print("Intentalo de nuevo: ");
+				j = vr.nextInt();}
+			else if(i>=3){
+				System.out.print("Ultimo intento: ");
+				j = vr.nextInt();}
+		}
+			
 
 
 
