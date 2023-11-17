@@ -57,7 +57,35 @@ public class HolaMundo {
 				System.out.print("Ultimo intento: ");
 				j = vr.nextInt();}
 		}
-			
+        if ((b == 3 && j > 20) || (b == 4 && j < 20)) {
+		System.out.print("Tu signo zodiacal es Aries: " + b + "-" + j);
+	} else if ((b >= 4 && j <= 20) || (b == 5 && j <= 20)) {
+		System.out.print("Tu signo zodiacal es Tauro: " + b + "-" + j);
+	} else if ((b >= 5 && j <= 21) || (b == 6 && j <= 20)) {
+		System.out.print("Tu signo zodiacal es Geminis: " + b + "-" + j);
+	} else if ((b >= 6 && j <= 21) || (b == 7 && j <= 22)) {
+		System.out.print("Tu signo zodiacal es Cancer: " + b + "-" + j);
+	} else if ((b >= 7 && j <= 23) || (b == 8 && j <= 22)) {
+		System.out.print("Tu signo zodiacal es Leo: " + b + "-" + j);
+	} else if ((b >= 8 && j <= 23) || (b == 9 && j <= 22)) {
+		System.out.print("Tu signo zodiacal es Virgo: " + b + "-" + j);
+	} else if ((b >= 9 && j <= 23) || (b == 10 && j <= 22)) {
+		System.out.print("Tu signo zodiacal es Libra: " + b + "-" + j);
+	} else if ((b >= 10 && j <= 23) || (b == 11 && j <= 21)) {
+		System.out.print("Tu signo zodiacal es Escorpio: " + b + "-" + j);
+	} else if ((b >= 11 && j <= 22) || (b == 12 && j <= 21)) {
+		System.out.print("Tu signo zodiacal es Sagitario: " + b + "-" + j);
+	} else if ((b >= 12 && j <= 22) || (b == 1 && j <= 19)) {
+		System.out.print("Tu signo zodiacal es Capricornio: " + b + "-" + j);
+	} else if ((b >= 1 && j <= 20) || (b == 2 && j <= 18)) {
+		System.out.print("Tu signo zodiacal es Acuario: " + b + "-" + j);
+	} else if ((b >= 2 && j <= 19) || (b == 3 && j <= 20)) {
+		System.out.print("Tu signo zodiacal es Piscis: " + b + "-" + j);
+		}
+
+	}
+}
+		
 
 
 
