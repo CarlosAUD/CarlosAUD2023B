@@ -8,9 +8,9 @@ public class HolaMundo {
 		int j;
 		int c = (int) ((Math.random()*31)+1);
 		Scanner mivariable=new Scanner(System.in);
-                System.out.println("Ingrese su nombre: Mi nombre es Anthony haro ");
+                System.out.println("Ingrese su nombre: Mi nombre es Anthony Haro ");
                 String nombre= mivariable.nextLine();
-		System.out.println("El juego consiste en averigurar la fecha secreta: ");
+		System.out.println("El juego se basa en averigurar la fecha secreta: ");
 		b = sc.nextInt();
 		for (i=0;i<=4;i++){
 			if(a==b){
